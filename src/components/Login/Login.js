@@ -24,7 +24,7 @@ export default function Login({ setToken }) {
       password
     });
     setToken(token);
-    alert(token.username);
+    //alert(token.username);
   }
 
   return(
@@ -43,6 +43,7 @@ export default function Login({ setToken }) {
           <button type="submit">Submit</button>
         </div>
       </form>
+      
     </div>
   )
 }
