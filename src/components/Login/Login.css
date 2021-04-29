@@ -3,3 +3,36 @@
     flex-direction: column;
     align-items: center;
 }
+
+#header-title {
+    grid-column: 2 / 3;
+ 
+    margin: 0;
+ 
+    font-size: 32pt;
+    font-family: "Ink Free";
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: right;
+ }
+
+.imgcontainer {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 24px auto 24px auto;
+    width: 50%;
+    text-align: center;
+}
+
+#loginGif{
+    height: 100%;
+    width: 75%;
+}
+
+.data-form{
+    background-color: #BDBFC0;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}

@@ -164,6 +164,21 @@ body {
     text-align: center;
     justify-content: center;
  }
+
+ #save-button {
+    color: white;
+    background: linear-gradient(-55deg, violet, indigo, lightblue, lightgreen, green);
+    animation: gradient 5s ease infinite;
+ }
+
+@keyframes gradient {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+}
  
  /******************************************/
  
@@ -259,7 +274,8 @@ body {
  
  .kbb-container{
     margin: 0px 0px 5px 5px;
-    max-width: 130px;
+    max-width: 250px;
+    max-height: 250px;
     justify-content: center;
  }
  
@@ -275,6 +291,9 @@ body {
     width: 100px;
  }
  
+ #LLGif-container{
+   height: 100%;
+ }
  
  
  /* Button used to open the contact form - fixed at the bottom of the page */

@@ -13,6 +13,7 @@ import HeaderTop from './components/Divs/Header';
 import UpperRight from './components/Divs/UR';
 import UpperLeft from './components/Divs/UL';
 import LowerRight from './components/Divs/LR';
+import LowerLeft from './components/Divs/LL';
 
 class Ape extends Component {
 
@@ -98,10 +99,8 @@ class Ape extends Component {
 					{<HeaderTop plan={this.state.plan}/> }
 					<div id="main-container">
 						<div id="left">
-							
 							{<UpperLeft requirements={this.state.requirements} catalog={this.state.catalog} /> }
-							<script src="./setAccordion.js"></script>
-							{/*<LowerLeft /> */}
+              {<LowerLeft />}
 						</div>
 						<div id="right">
 							{<UpperRight plan={this.state.plan} catalog={this.state.catalog}/>}					
